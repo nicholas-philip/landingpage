@@ -1,0 +1,61 @@
+
+
+
+
+:root{
+	--primaryColor:#f6e97a;
+	--secondaryColor:black;
+	--createContainer: #7986B2;
+	--textColor: #BCC4E4;
+}
+
+
+
+/* style.css */
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.primaryColor {
+  @apply bg-yellow-500;
+} */
+
+.chart {
+	width: 300px;
+	height: 200px;
+	position: relative;
+}
+.line {
+	stroke: black;
+	stroke-width: 2;
+	fill: none;
+}
+.dot {
+	fill: white;
+	stroke: black;
+	stroke-width: 2;
+}
+.tooltip {
+	position: absolute;
+	background-color: #f8e71c;
+	padding: 0.5rem;
+	border-radius: 0.25rem;
+	font-size: 0.875rem;
+	font-weight: bold;
+	display: none;
+}
+.axis-text {
+	font-size: 0.75rem;
+	fill: black;
+}
+.grid-line {
+	stroke: #e0e0e0;
+	stroke-width: 1;
+}
+.golden-star {
+	color: gold;
+}
+.green-leaf {
+	color:black;
+	font-size: 3em; /* Adjust this value to increase/decrease the size */
+}
